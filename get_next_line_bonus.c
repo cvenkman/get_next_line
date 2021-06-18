@@ -70,10 +70,10 @@ static int	gnl(int fd, char **line, char **ost)
 int	get_next_line(int fd, char **line)
 {
 	int			a;
-	static char	*ost;
+	static char	*ost[1000];
 
 	if (!line || BUFFER_SIZE < 1 || read(fd, 0, 0) < 0)
 		return (-1);
-	a = gnl(fd, line, &ost);
+	a = gnl(fd, line, &ost[fd]);
 	return (a);
 }
