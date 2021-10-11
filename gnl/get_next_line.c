@@ -1,5 +1,5 @@
 #include "get_next_line.h"
-#include <stdio.h>
+
 static int	first_n(char *ost, char **line, char **pointer)
 {
 	if (ost)
@@ -77,3 +77,4 @@ int	get_next_line(int fd, char **line)
 	a = gnl(fd, line, &ost);
 	return (a);
 }
+

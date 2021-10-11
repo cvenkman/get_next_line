@@ -1,5 +1,5 @@
-#include "get_next_line.h"
-#include <stdio.h>
+#include "get_next_line_bonus.h"
+
 static int	first_n(char *ost, char **line, char **pointer)
 {
 	if (ost)
