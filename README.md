@@ -2,7 +2,7 @@
 
 Function that returns a line ending with a newline, read from a file descriptor
 
-<img src="resources/gnl-finalmark.png" width="350" />
+<img src="resources/resources/final_mark.png" width="350" />
 
 ### Compiling & executing
 
