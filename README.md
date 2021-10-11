@@ -2,7 +2,7 @@
 
 Function that returns a line ending with a newline, read from a file descriptor
 
-![alt text](https://github.com/cvenkman/get_next_line/blob/main/resources/final_mark.png?raw=true)
+<img src="resources/gnl-finalmark.png" width="350" />
 
 ### Compiling & executing
 
