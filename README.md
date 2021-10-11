@@ -1,4 +1,4 @@
-## get_Next_Line
+## Get_Next_Line
 
 Function that returns a line ending with a newline, read from a file descriptor
 
